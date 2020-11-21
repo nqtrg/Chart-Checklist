@@ -1,6 +1,6 @@
 # Chart checklist
 
-List of items to go through before release a chart.
+List of items to go through before releasing a chart.
 
 I learn from:
 
@@ -9,32 +9,32 @@ I learn from:
 
 # General
 
-- Keep a high percent of data ink: “the larger the share of a graphic’s ink devoted to data, the better (other relevant matters being equal).”
+- Keep a high percent of data-ink: “the larger the share of a graphic’s ink devoted to data, the better (other relevant matters being equal).”
     - no clutter effect
     - remove chart border
 - Axis/labels are de-emphasized. E.g: make it grey
 - Never use 3D
-- Use business term. E.g:
+- Use business terms. E.g:
     - not good: month_key, organization_name
     - good: Month, Organization
-- Avoid second axis. Second axis takes some time and reading to understand which data should be read against which axis.
+- Avoid a second axis. A second axis takes some time and reading to understand which data should be read against which axis.
     - E.g:
         - From
 
             ![figures/Untitled.png](figures/Untitled.png)
 
         - To
-            - Don’t show the secondy‐axis.Instead,labelthedatapointsthat belong on this axis directly.
+            - Don’t show the secondary axis. Instead,label the data points that belong on this axis directly.
 
                 ![figures/Untitled%201.png](figures/Untitled%201.png)
 
-            - Pullthegraphsapartverticallyandhaveaseparatey‐axisforeach (both along the left) but leverage the same x‐axis across both.
+            - Pull the graphs apart vertically and have a separately axis for each (both along the left) but leverage the same x‐axis across both.
 
                 ![figures/Untitled%202.png](figures/Untitled%202.png)
 
 # Table
 
-- Avoid using table
+- Avoid using tables
 - Try to highlight the information you want to communicate. e.g: make it a heat map
 - Draw our audience’s eyes in the direction we want them to focus: row or columns. Approaches:
     - spacing
@@ -48,7 +48,7 @@ I learn from:
 # Lines
 
 - Are most commonly used to plot continuous data
-- Horizontal x‐axis label must be in consistent intervals. Eg: 1, 2, 3, 4, 5 but not 1, 2, 4, 5
+- Horizontal x‐axis label must be in a consistent interval. Eg: 1, 2, 3, 4, 5 but not 1, 2, 4, 5
 - No data marker (triangle, square, oval,...)
 
 # Bars
@@ -69,7 +69,7 @@ Use when:
 
 # Pie
 
-- Even it is not 3D, it should be replace by horizontal bar chart or accurately interpreting the data
+- Even it is not 3D, it should be replaced by a horizontal bar chart or accurately interpreting the data
     - From
 
         ![figures/Untitled%205.png](figures/Untitled%205.png)
